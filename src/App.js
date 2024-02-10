@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import React from 'react';
+import SideMenu from './components/SideMenu';
+import Home from './Pages/Home';
+import ProfileManagement from './Pages/ProfileManagement';
+import ChatInterface from './Pages/ChatInterface';
+import RecruitmentProcess from './Pages/RecruitmentProcess';
+import Login from './Pages/Login';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <Router>
+         <SideMenu>
+         <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/profile' element={<ProfileManagement/>} />
+          <Route path='/chat' element={<ChatInterface/>} />
+          <Route path='/process' element={<RecruitmentProcess/>} />
+          <Route path='/login' element={<Login/>} />
+         </Routes>
+         </SideMenu>
+       </Router>
   );
 }
 
