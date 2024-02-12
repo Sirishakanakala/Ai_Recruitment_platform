@@ -1,3 +1,14 @@
+#Ai Recruitment Platform 
+
+
+<img width="907" alt="image" src="https://github.com/Sirishakanakala/Ai_Recruitment_platform/assets/110217912/e2d11c64-2cb3-4236-ace0-29489230fda5">
+
+#Demo video 
+https://github.com/Sirishakanakala/Ai_Recruitment_platform/assets/110217912/459546c2-1d1c-42ac-b953-4c0e567128d5
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
