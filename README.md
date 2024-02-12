@@ -5,7 +5,37 @@
 # Demo video
 https://github.com/Sirishakanakala/Ai_Recruitment_platform/assets/110217912/459546c2-1d1c-42ac-b953-4c0e567128d5
 
+# Project Structure
 
+ai_recruitment_platform/
+│
+├── public/
+│ └── index.html
+| └── images
+|    └── ...
+├── src/
+│ ├── components/
+│ │ ├──Sidemenu.js
+│ ├── pages/
+│ │ ├── Profile_Management/
+│ │  |  └── Create.js
+│ │   └── Update.js
+│ │   └── User.js
+│ │ ├── Recruitment_Process/
+│ │   └── ProcessElements.js
+│ │ ├── Home.js
+│ │ ├── Profile_Management.js
+│ │ ├── ChatInterface.js
+│ │ ├── Recruitment_Process,js
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── server/
+│ ├── models/
+│ │ ├── User.js
+│ ├── index.js
+├── README.md
+└── .gitignore
 
 
 # Getting Started with Create React App
