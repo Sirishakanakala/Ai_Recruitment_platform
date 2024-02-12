@@ -9,33 +9,36 @@ https://github.com/Sirishakanakala/Ai_Recruitment_platform/assets/110217912/4595
 
 ai_recruitment_platform/
 │
+ai_recruitment_platform/
+│
 ├── public/
-│ └── index.html
-| └── images
-|    └── ...
+│   └── index.html
+│   └── images/
+│       └── ...
 ├── src/
-│ ├── components/
-│ │ ├──Sidemenu.js
-│ ├── pages/
-│ │ ├── Profile_Management/
-│ │  |  └── Create.js
-│ │   └── Update.js
-│ │   └── User.js
-│ │ ├── Recruitment_Process/
-│ │   └── ProcessElements.js
-│ │ ├── Home.js
-│ │ ├── Profile_Management.js
-│ │ ├── ChatInterface.js
-│ │ ├── Recruitment_Process,js
-│ ├── App.js
-│ ├── index.js
-│ └── ...
+│   ├── components/
+│   │   ├── Sidemenu.js
+│   ├── pages/
+│   │   ├── Profile_Management/
+│   │   │   ├── Create.js
+│   │   │   ├── Update.js
+│   │   │   └── User.js
+│   │   ├── Recruitment_Process/
+│   │   │   └── ProcessElements.js
+│   │   ├── Home.js
+│   │   ├── Profile_Management.js
+│   │   ├── ChatInterface.js
+│   │   └── Recruitment_Process.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
 ├── server/
-│ ├── models/
-│ │ ├── User.js
-│ ├── index.js
+│   ├── models/
+│   │   └── User.js
+│   ├── index.js
 ├── README.md
 └── .gitignore
+
 
 
 # Getting Started with Create React App
