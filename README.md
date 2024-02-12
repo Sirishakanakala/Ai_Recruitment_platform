@@ -1,4 +1,4 @@
-# Ai Recruitment Platform
+# Ai Recruitment Platform - MERN Stack Project
 
 <img width="907" alt="image" src="https://github.com/Sirishakanakala/Ai_Recruitment_platform/assets/110217912/e2d11c64-2cb3-4236-ace0-29489230fda5">
 
