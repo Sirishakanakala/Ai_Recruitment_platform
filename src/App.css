@@ -4,23 +4,25 @@
   text-decoration: none;
 }
 body{
-  background-color: #242323;
+  background-color: #100b16;
+  /* color: #b49ec5 ; */
 }
 .container{
   margin: auto;
   margin-left: -10px;
   display:flex;
-  color: white;
+  color: rgb(246, 246, 246);
 }
 main{
   flex: 1;
   padding: 20px;
 }
 .sidebar{
-  background: #040303;
+  background: #1a1224;
   color: #fff;
-  height: 100vh;
-  width: 250px;
+  min-height: 100vh;
+  max-height: auto;
+  width: 200px;
   transition: all 0.5s;
 }
 .top_section{
@@ -44,14 +46,113 @@ main{
   transition: all 0.5s;
 }
 .link:hover{
-  background:lightskyblue;
+  background:rgb(117, 101, 136);
   color: #000;
   transition: all 0.5s;
 }
 .active{
-  background: lightskyblue;
+  background: rgb(117, 101, 136);
   color: #000;
 }
 .icon, .link_text{
-  font-size: 20px;
+  font-size: 17px;
+}
+.custom-card {
+  min-width: 200px;
+  width: 100%;
+}
+.auth_buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.auth_buttons:hover {
+  background: rgb(117, 101, 136);
+  color: #000;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+}
+.auth_buttons{
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+}
+.user_info:hover{
+  background: rgb(117, 101, 136);
+  color: #000;
+}
+.user_info span{
+  font-size: 17px;
+}
+
+.bottom_section {
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  background-color: #100b16 !important;
+  color: white !important;
+}
+
+.accordion-button:not(.collapsed) {
+  /* background-color: #6c5b7b !important; */
+  color: #b19ac3 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* .accordion-button:not(.collapsed):hover {
+  /* background-color: #6c5b7b !important; */
+
+.accordion{
+  width: 500px; 
+}
+.carousel-item img {
+  background: transparent !important;
+}
+.update-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  color: black !important;
+  border-radius: 3 rem;
+}
+.workflow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.step {
+  text-align: center;
+  position: relative;
+}
+
+.step-name {
+  position: relative;
+  z-index: 1;
+}
+
+.step-name::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 30px);
+  background-color: #ccc;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
 }

@@ -15,7 +15,7 @@ function App() {
          <SideMenu>
          <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/profile' element={<ProfileManagement/>} />
+          <Route path='/profile/*' element={<ProfileManagement/>} />
           <Route path='/chat' element={<ChatInterface/>} />
           <Route path='/process' element={<RecruitmentProcess/>} />
           <Route path='/login' element={<Login/>} />
